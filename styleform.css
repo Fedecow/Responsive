@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img {width: 90px;}
+
+html {
+    font-size: 62,5%;
+}
+
+header {
+    background-color: rgb(19, 95, 235);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    
+    }
+    .menu {
+    width: 900px;
+    margin: 0 auto;
+    
+    }
+    nav {
+        float: right;}
+
+
+
+    nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+            }
+
+ nav ul li a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: x-large;
+                }
+                
+   nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    top: 0;
+    position: absolute;
+    transition: width 0.5s;
+                }
+                
+
+   nav ul li a:hover::before {
+    width: 100%;
+                    
+      }
+
+
+.hiro {
+    margin:  0;
+    padding: 100px 0;
+background-image: url(./seed-nature-bean-nut-wallpaper-preview.jpg);
+    height: 610px;
+    
+    
+}
+div {
+  background-color: transparent;
+  border-radius: 25px;
+}
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 150px;
+    font-size: x-large;
+}
+main {
+    
+}
+
+a {
+    font-size: xx-large;
+    
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    .copyrightContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    }
+    
+    .copyright {
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+    
+    }
+    
+    .footerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+    }
+    
+    .footerContainer {
+       
+    height: 200px;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    
+    .footerContentContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    
+    footer .logo {
+    margin-bottom: 1.2rem;
+    font-size: 15px;
+    }
+    
+    .infoFooter .menuItemfooter {
+    margin: 0.2rem 0;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s;
+    }
+    
+    .menuItemfooter:hover{
+    opacity: 1;
+    }
+    
+    .tituloDemenu {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    }
+    
+    .socialContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    
+    }
+    
+    .linkSocial {
+        height: 100%;
+        width: 30px;
+        background-image: url(.//fb.png);
+        background-size: 70%;
+        background-position: center;
+        margin-right: 1rem;
+        background-repeat: no-repeat;
+        
+        }
+        
+        .linkSocial:hover {
+        opacity: 0.7;
+        }
+        
+        .tituloDemenu {
+        
+        }
+        footer .linkSocial:nth-of-type(2) {
+        background-image: url(./tw.jpg);
+        }
+        footer .linkSocial:nth-of-type(3) {
+        background-image: url(./lk.jpg) ;
+        
+        }
+        
+        @media (max-width: 768px) {
+        .footerContainer {
+        
+        flex-direction: row;
+        
+        }
+        .footerContentContainer {
+        width: 100%;
+        padding: 2rem 0;
+        border-bottom: 1px solid #2a2a2a;
+        justify-content: center;
+        align-items: center;
+        }
+
+        }
+    
+
+        @media (max-width)
